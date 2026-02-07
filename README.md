@@ -6,7 +6,7 @@ This is a next-generation version of [LibreLogin](https://github.com/kyngs/Libre
 # Download Links
 
 <a href="https://modrinth.com/plugin/miguloginnext">
-  <img alt="modrinth" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/modrinth_vector.svg">
+  <img alt="modrinth" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/modrinth_vector.svg"> 
 </a>
 
 <a href="https://www.spigotmc.org/resources/miguloginnext.131713/">
