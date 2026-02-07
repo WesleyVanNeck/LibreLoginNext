@@ -6,7 +6,6 @@ jobs:
   build_dev_jars:
     name: Build DEV jars
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v2
         with:
@@ -16,7 +15,6 @@ jobs:
         with:
           distribution: 'adopt'
           java-version: '17'
-		  
       - name: Build with Gradle
         run: |
          ./gradlew jar
@@ -29,5 +27,6 @@ jobs:
         with:
           name: plugin
           path: $(pwd)/builds/*
+
 
 
