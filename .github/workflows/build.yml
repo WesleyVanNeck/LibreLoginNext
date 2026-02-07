@@ -26,7 +26,8 @@ jobs:
         uses: actions/upload-artifact@v5
         with:
           name: plugin
-          path: /*
+          path: /LibreLoginNext/builds/*
+
 
 
 
