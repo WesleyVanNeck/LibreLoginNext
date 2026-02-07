@@ -23,10 +23,11 @@ jobs:
           echo "snapshotVersion=5.5-SNAPSHOT" >> $GITHUB_ENV
           echo "artifactPath=$(pwd)/builds" >> $GITHUB_ENV
       - name: Upload Plugin jar
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v5
         with:
           name: plugin
           path: $(pwd)/builds/*
+
 
 
 
